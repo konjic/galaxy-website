@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+
+    list-style: none;
+    
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+
+    width:100%;
+z-index: 99;
+}
+
+.logo{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 28%;
+
+    /* background-image: url("https://images.squarespace-cdn.com/content/v1/602334ccc83cc72486df6be3/1613162047924-M4ZJZ3N7HCMH4HXSUJ68/TMLF-0101+Brand+Identity_LOGO-black.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-links{
+    display: flex ;
+    justify-content: center;
+    width: 70%;
+}
+
+.nav-links li{
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;   
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-links Link{
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    
+}
+
+.navbarButton{
+    border: orange  solid 1px;
+    background: none;
+    font-size: 16px;
+    margin-right: 50px;
+    width: 15%;
+    height: 50px;
+    border-radius: 80px;
+    color: orange;
+    cursor: pointer;
+    
+}
+
+.navbarButton-right{
+    border: orange  solid 1px;
+    background: none;
+    font-size: 16px;
+    margin-right: 50px;
+    width: 15%;
+    height: 50px;
+    border-radius: 80px;
+    color: white;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+        z-index: 1;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    button{
+    display: none;
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        box-shadow: -1px 11px 14px -3px rgba(0,0,0,0.3);
+        left: 0;
+        top: 10%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background-color: white;
+
+        z-index: 9;
+    }
+
+    ul li{
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    .mobile-menu-icon{
+        position: absolute;
+        display: block;
+        right: 20px;
+        height: 50px;
+        width: 50px;
+        z-index: 10;
+    }
+
+    
+
+    .navbar{
+        box-shadow: none;
+
+    }
+
+    .navbar img{
+        z-index: 10;
+    }
+}
