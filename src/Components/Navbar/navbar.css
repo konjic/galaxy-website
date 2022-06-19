@@ -7,7 +7,7 @@
 li{
 
     list-style: none;
-    
+    z-index: 98;
 
 }
 
@@ -27,6 +27,7 @@ z-index: 99;
     display: flex ;
     justify-content: center;
     width: 70%;
+    z-index: 98;
 }
 
 .nav-links li{
@@ -37,14 +38,17 @@ z-index: 99;
     cursor: pointer;
     text-transform: capitalize;   
     color: white;
+    z-index: 98;
 }
 
 a{
     text-decoration: none;
+    z-index: 98;
 }
 
 .nav-links Link{
     text-decoration: none;
+    z-index: 98;
 }
 
 .hero{
@@ -94,6 +98,7 @@ a{
         width: 100%;
         transition: all 0.5s ease-in-out;
         text-align: center;
+        z-index: 98;
     }
 
     .mobile-menu-icon{

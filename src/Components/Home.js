@@ -8,6 +8,8 @@ import {HiOutlineMicrophone} from 'react-icons/hi'
 import {GoSync} from 'react-icons/go'
 import {BsFillCloudsFill} from 'react-icons/bs'
 import {TiSocialYoutubeCircular} from 'react-icons/ti'
+import {BsEnvelope} from 'react-icons/bs'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 
 
 
@@ -100,8 +102,124 @@ function Home (){
 
 
            <div className="footer">
-            
+              <div className="footer-grid-wrapper">
+                <div className="footer-grid-item">
+                  <h4>Products</h4>
+                    <li>
+                      <ul>
+                        Vox Premium
+                      </ul>
+                      <ul>
+                        Vox Music Cloud
+                      </ul>
+                      <ul>
+                        Vox Sonos Support 
+                      </ul>
+                      <ul>
+                        Vox Music Share
+                      </ul>
+                      <ul>
+                        Vox Extension for Chrome
+                      </ul>
+                      <ul>
+                        Vox Extension for Media Controls
+                      </ul>
+                      <ul>
+                        Vox Older Versions
+                      </ul>
+                      <ul>
+                        Radio Online Catalogue
+                      </ul>
+                    </li>
+                  </div>
+                <div className="footer-grid-item">
+                <h4>Info & Support</h4>
+                    <li>
+                      <ul>
+                        Contacts
+                      </ul>
+                      <ul>
+                        Support
+                      </ul>
+                      <ul>
+                        Vox Presskit
+                      </ul>
+                      <ul>
+                        Company Blog
+                      </ul>
+                      <ul>
+                        How to
+                      </ul>
+                      <ul>
+                        Hi-Res Music
+                      </ul>
+                      <ul>
+                        How To Use VOX Music Cloud
+                      </ul>
+                      <ul>
+                        Careers
+                      </ul>
+                    </li>
+                </div>
+                <div className="footer-grid-item">
+                <h4>Legal</h4>
+                    <li>
+                      <ul>
+                        Terms & Conditions
+                      </ul>
+                      <ul>
+                        Privacy policy
+                      </ul>
+                      <ul>
+                        License agreement
+                      </ul>
+                    </li>
+                    <br/>
+                    <h4>Players</h4>
+                    <li>
+                      <ul>
+                        Vox for MAC
+                      </ul>
+                      <ul>
+                        Vox for IPhone
+                      </ul>
+                      <ul>
+                      Vox for Radio
+                      </ul>
+                    </li>
+                </div>
+                <div className="footer-grid-item">
+                <img src="https://pepeneromalta.com/wp-content/uploads/2020/03/24-246862_weve-got-you-covered-app-store-logo-white.png" alt="" width={250} />
+
+                <div className='area-button-newsletter'>
+
+                <h4>SUBSCRIBE TO NEWSLETTER</h4>
+                <input  type="text" placeholder="E-MAIL" id='newsletter-buttom' ></input> 
+                <BsEnvelope color='white' size={50} marginTop={10} 
+                
+                style={{position: 'absolute',
+                  boxSizing: 'border-box',
+                  transform: "translateX(-120%)",
+                  // transform: "translateY(10%)"
+                  marginTop: 8
+              }}/>
+                </div>
+                
+                </div>
+              </div>
+
+                <div className='copyright'>
+                  <a href="https://www.linkedin.com/in/razvan-burloiu-47750b13b/" target='#_blank'>© Burloiu Razvan
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/razvan-burloiu-47750b13b/" target='#_blank'> <AiOutlineLinkedin color="white" size="25" href="https://www.linkedin.com/in/razvan-burloiu-47750b13b/" target='#_blank'/></a>
            </div>
+
+
+           </div>
+
+
+           
 
       </div>
     )
