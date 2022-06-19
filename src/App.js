@@ -9,6 +9,8 @@ import {
 
 } from "react-router-dom";
 
+import ErrorPage from './Components/ErrorPage';
+
 function App() {
 
 
@@ -18,10 +20,10 @@ function App() {
 
 <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/practice' element={<Home/>} />
-            <Route path='/why-choose-us' element={<Home/>} />
-            <Route path='/lawyers' element={<Home/>} />
-            <Route path='/reviews' element={<Home/>} />
+            <Route path='/products' element={<ErrorPage/>} />
+            <Route path='/hi-res-music' element={<ErrorPage/>} />
+            <Route path='/vox-premium' element={<ErrorPage/>} />
+            <Route path='/contact' element={<ErrorPage/>} />
           </Routes>
 
 

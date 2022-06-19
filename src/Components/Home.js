@@ -58,7 +58,7 @@ function Home (){
         <div className="hero-grid">
             <div className="hero-grid-item"> <img src={laptop} alt="" /> </div>
             <div className="hero-grid-item"><h2>Integrated Unlimited Music Cloud</h2></div>
-            <div className="hero-grid-item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius quam dignissimos non dolorum laborum veniam fuga aut delectus dolorem.</p> <input type="button" value="Learn More"></input> </div>
+            <div className="hero-grid-item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius quam dignissimos non dolorum laborum veniam fuga aut delectus dolorem.</p> <input type="button" value="Learn More" id="learn-more"></input> </div>
             <div className="hero-grid-item">
                 <input type="button" value="FREE DOWNLOAD" id='button-left'></input> 
                 <input type="button" value="GO PREMIUM" id='button-right'></input> 

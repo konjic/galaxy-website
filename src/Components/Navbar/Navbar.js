@@ -20,17 +20,18 @@ function Navbar() {
      
 
       <ul className= {Mobile? "nav-links-mobile" : 'nav-links'} onClick={()=>setMobile(false)}>
-        <Link to='/'><li>PRODUCTS</li></Link>
-        <Link to='/practice'><li>HI-RES MUSIC</li></Link>
-        <Link to='/why-choose-us'><li>VOX PREMIUM</li></Link>
-        <Link to='/lawyers'><li>CONTACT</li></Link>
+        <Link to='/'><li>HOME</li></Link>
+        <Link to='/products'><li>PRODUCTS</li></Link>
+        <Link to='/hi-res-music'><li>HI-RES MUSIC</li></Link>
+        <Link to='/vox-premium'><li>VOX PREMIUM</li></Link>
+        <Link to='/contact'><li>CONTACT</li></Link>
 
       </ul>
 
       
       
-      <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
-      <FaBars/>
+      <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)} style={{background: "transparent"}}>
+      <FaBars color='white' size={50}/>
         
       </button>
 
