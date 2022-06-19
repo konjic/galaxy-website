@@ -20,6 +20,7 @@ function App() {
 
 <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='*' element={<Home/>} />
             <Route path='/products' element={<ErrorPage/>} />
             <Route path='/hi-res-music' element={<ErrorPage/>} />
             <Route path='/vox-premium' element={<ErrorPage/>} />
